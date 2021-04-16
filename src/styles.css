@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+
+.html, body{
+    height : 100%;
+}
+body {
+    margin: 0;
+    font-family: 'Nunito', 'sans-serif';
+    font-size: 18px;
+    background: e6e6e6;
+}
+header {
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+  }
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+   
+h1 {
+    margin-top: 2em;
+}
+
+
+
+
+ul {
+    list-style: none;
+    overflow: hidden; /* Limpiamos errores de float */
+  }
+  
+  nav ul li {
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+  }
+  
+  nav ul li a {
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  nav ul li:hover {
+    background: #e484cc;
+  }
